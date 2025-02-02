@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+.nav1{
+    background-color: antiquewhite;
+    display: flex;
+}
+.navleft{
+    background-color: rgb(200, 161, 236);
+
+}
+.navright{
+    background-color: rgb(102, 99, 99);
+    display: flex;
+}
+.card-sec1{
+    display: flex;
+    gap: 20px;
+}
+.card1{
+    width: 227px;
+    height: 295px;
+    gap: 20px;
+    background-color: aqua;
+}
+.card2{
+    width: 227px;
+    height: 295px;
+    gap: 20px;
+    background-color: aqua;
+}
+.card3{
+    width: 227px;
+    height: 295px;
+    /* gap: 20px; */
+    background-color: aqua;
+}
+.card4{
+    width: 227px;
+    height: 295px;
+    gap: 20px;
+    background-color: aqua;
+}
+.card5{
+    width: 227px;
+    height: 295px;
+    gap: 20px;
+    background-color: aqua;
+}
+
+
+
+
+/* #F5F5F5 */
+/* #249B3E */
