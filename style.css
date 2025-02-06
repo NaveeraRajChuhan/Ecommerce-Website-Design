@@ -5,7 +5,13 @@
 font-family: sans-serif;
 
 }
-.nav1{
+
+.container{
+    padding: 0px 60px 0px 60px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>......................nav1...........................<<<<<<<<<<<<<<<<<<<<<< */
+/* .nav1{
     background-color: antiquewhite;
     display: flex;
 }
@@ -16,26 +22,93 @@ font-family: sans-serif;
 .navright{
     background-color: rgb(102, 99, 99);
     display: flex;
+} */
+
+
+
+
+
+
+
+
+.nav1{
+    width: 100%;
+    height: 7vh;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+.nav1-left{
+    margin-left: 120px;
+    /* background-color: rgb(255, 0, 0); */
+
+}
+.nav1-left-para{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    /* background-color: rgb(30, 255, 0); */
+
+}
+.nav1-right{
+    display: flex;
+    width: 30%;
+    padding-right: 50px;
+    /* background-color: rgb(0, 247, 255); */
+
+}
+.text{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    /* border-right: 1px solid #D9D9D9; */
+    width: 100%;
+    padding-left: 10px;
+    /* background-color: rgb(55, 0, 255); */
+}
+.nav1-right-2{
+    border: 1px solid #D9D9D9;
 }
 
-/* nav3.................................................................... */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>......................nav3...........................<<<<<<<<<<<<<<<<<<<<<< */
 .nav3{
-    width: 100%;
-    height: 10vh;
+    /* width: 100%; */
+    /* height: 10vh; */
     background-color: #ffffff;
     display: flex;
     align-items: center;
       justify-content: center;
     border-bottom: 1px solid #EDEDED;
-    /* background-color: yellow; */
+    background-color: yellow;
+    /* flex-wrap: wrap; */
     margin-top: 40px;
     margin-bottom: 30px;
 }
 .nav3-container{
     /* background-color: purple; */
     width: 90%;
-    height: 5.5vh;
+    /* height: 5.5vh; */
      display: flex;
+    flex-wrap: wrap;
+
     gap: 20px;
 }
 .nav3-selector{
@@ -63,29 +136,26 @@ font-family: sans-serif;
 }
 .nav3-para:hover{
     color: white;
+    
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* card */
+/* >>>>>>>>>>>>>>>>>>>>>>......................card...........................<<<<<<<<<<<<<<<<<<<<<< */
+.card1-top-head{
+    color: #5c5a5a;
+    font-size: 24px;
+    font-weight: 700;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>......................card-sec1...........................<<<<<<<<<<<<<<<<<<<<<< */
 .card-sec1{
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    background-color: aqua;
+    flex-wrap: wrap;
 }
 .card1{
     width: 227px;
@@ -94,6 +164,11 @@ font-family: sans-serif;
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
     border: 1px solid #e9e7e7;
+}
+.card1:hover{
+    border: 3px solid #008ECC ;
+    border-radius: 0%;
+    
 }
 .card1-img{
     width: 100%;
@@ -108,59 +183,45 @@ background-color: #F5F5F5;
 .card1-text{
     padding: 15px;
 }
-h2{
+.card-sec1-head1{
 font-weight: 200;
 font-size: 20px;
 font-family: sans-serif;
+/* background-color: orangered; */
 }
-h3{
+.card-sec1-head2{
     font-weight: 700;
+    /* background-color: yellow; */
 }
-h4{
+.card-sec1-head3{
     font-weight: 300;
-}
-/* .card2{
-    width: 227px;
-    height: 295px;
-    gap: 20px;
-    background-color: aqua;
-}
-.card3{
-    width: 227px;
-    height: 295px;
-     gap: 20px; 
-    background-color: aqua;
-}
-.card4{
-    width: 227px;
-    height: 295px;
-    gap: 20px;
-    background-color: aqua;
-}
-.card5{
-    width: 227px;
-    height: 295px;
-    gap: 20px;
-    background-color: aqua;
-} */
+    /* background-color: rgb(255, 0, 234); */
 
+}
+/* >>>>>>>>>>>>>>>>>>>>>>......................card-sec2...........................<<<<<<<<<<<<<<<<<<<<<< */
 .card-sec2{
     margin-top: 80px;
     width: 100%;
-    height: 50vh;
-    /* background-color: rgb(110, 110, 226); */
+    /* height: 50vh; */
+    background-color: rgb(110, 110, 226);
 display: flex;
-gap: 45px;
-justify-content: center;
+/* gap: 45px; */
+/* justify-content: center; */
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
 .card2{
     margin-top: 30px;
-    width: 132px;
+    width: 138px;
     height: 172px;
     /* background-color: bisque; */
     background-color: white;
-    
 
+}
+.card2:hover{
+    border: 3px solid #008ECC ;
+    border-radius: 0%;
+    
 }
 .card2-img{
     width: 132px;
@@ -175,6 +236,11 @@ overflow: hidden;
     align-items: center;
 
 }
+.card2-img:hover{
+    border: 3px solid #008ECC ;
+    /* border-radius: 0%; */
+    
+}
 .card2-image{
     width: 90%;
     height: 85%;
@@ -186,7 +252,7 @@ padding: 10px 30px 10px 30px;
 
 }
 
-/* sec3 */
+/* >>>>>>>>>>>>>>>>>>>>>>......................card-sec3...........................<<<<<<<<<<<<<<<<<<<<<< */
 .card-sec3{
     margin-top: 80px;
     width: 100%;
@@ -212,16 +278,17 @@ justify-content: center;
     height: 100%;
 }
 
-/* card4 */
+/* >>>>>>>>>>>>>>>>>>>>>>......................card-sec4...........................<<<<<<<<<<<<<<<<<<<<<< */
 
 .card-sec4{
     margin-top: 80px;
     width: 100%;
-    height: 50vh;
-    /* background-color: rgb(110, 193, 226); */
+    /* height: 50vh; */
+ background-color: red;
 display: flex;
 gap: 20px;
 justify-content: center;
+flex-wrap: wrap;
 }
 .card4{
     margin-top: 20px;
@@ -235,13 +302,24 @@ justify-content: center;
     border-radius: 16px;
     overflow: hidden;
     border: 1px solid #e9e7e7;
-
-background-color: #F5F5F5;
-/* box-shadow: 20px 20px 2px solid rgb(2, 2, 2); */
+   padding: 10px;
+    background-color: #F5F5F5;
+    /* box-shadow: 20px 20px 2px solid rgb(2, 2, 2); */
 }
+.card4-img:hover{
+    border: 3px solid #008ECC ;
+}
+
 .card4-image{
-    width: 200px;
-    height: 100%;
+    /* width: 200px;
+    height: 100%; */
+    width: 160px;
+    height: 160px;
+}
+.card4-image:hover{
+    border: 3px solid #008ECC ;
+    border-radius: 0%;
+    
 }
 .card4-text{
     padding: 10px 20px 10px 50px;
@@ -252,6 +330,120 @@ background-color: #F5F5F5;
 
 
 
-
 /* #F5F5F5 */
 /* #249B3E */
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>.....................----------.media quary--------...........................<<<<<<<<<<<<<<<<<<<<<< */
+@media only screen and ( max-width:1170px){
+.nav1-right{
+width: 40%;
+}
+ 
+.nav1-left{
+    margin-left: 80px;
+    background-color: rgb(255, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+}
+
+@media only screen and ( max-width:815px){
+    .nav1-right{
+    width: 50%;
+    }
+     
+    .nav1-left{
+        margin-left: 30px;
+        background-color: rgb(255, 0, 0);
+    
+    }
+
+    .nav3-container{
+        gap: 12px;
+    }
+    .selector{
+        display: none;
+    }
+
+    /* .card1-top-head{
+        font-size: 20px;
+        background-color: #c5e775;
+    } */
+
+    }
+
+    @media only screen and ( max-width:575px){
+        .nav1-right{
+        width: 50%;
+        }
+         
+        .nav1-left{
+            margin-left: 20px;
+            /* background-color: rgb(255, 0, 0); */
+        
+        }
+        .nav3-container{
+            gap: 10px;
+        }
+        .selector1{
+            display: none;
+        }
+
+    .nav3-para{
+        font-size: 10px;
+    }
+    
+    .card1-top-head{
+        font-size: 18px;
+        /* background-color: #c5e775; */
+    }
+    
+        }
+        @media only screen and ( max-width:425px){
+            .nav1-right{
+            width: 47%;
+            }
+             
+            .nav1-left{
+                margin-left: 8px;
+                /* background-color: rgb(255, 0, 0); */
+            }
+        
+            .nav1-left-para{
+                color: #666666;
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 14px;
+                /* background-color: rgb(30, 255, 0); */
+            
+            }
+
+            .text{
+                /* background-color: antiquewhite; */
+                line-height: 12px;
+                
+                font-size: 10px;
+                font-weight: 400;
+                padding-left: 10px;
+            }
+.nav3-selector{
+    padding: 9px 10px 9px 10px;
+
+}
+
+
+
+        
+            }
+
+
+            
