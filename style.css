@@ -86,12 +86,15 @@ main {
 .nav2{
     display: flex;
     gap: 300px;
-    padding: 0px 60px 0px 60px;
+    padding: 20px 60px 20px 60px;
 }
 
 
 
-
+/* hr{
+    color:rgb(240, 240, 240);
+    background-color: red;
+} */
 
 
 
@@ -108,10 +111,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #EDEDED;
+    /* border-bottom: 1px solid #EDEDED; */
     /* background-color: yellow; */
     /* flex-wrap: wrap; */
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
