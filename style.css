@@ -85,13 +85,43 @@ main {
 /* >>>>>>>>>>>>>>>>>>>>>>......................nav2...........................<<<<<<<<<<<<<<<<<<<<<< */
 .nav2{
     display: flex;
-    gap: 300px;
+    gap: 30px;
     padding: 20px 60px 20px 60px;
 }
 
 .nav2-search{
     padding: 10px 0px 10px 30px;
-    width: 550px;
+    width: 480px;
+    height: 8vh;
+    color: #008ECC;
+    margin-left: 320px;
+}
+.nav2-btn1{
+padding: 6px 20px 6px 10px;
+border: none;
+background-color: white;
+border-right:1px solid rgb(163, 159, 159) ;
+margin-right: 10px;
+color: #666666;
+line-height: 18px;
+size: 16px;
+font-weight: 700;
+}
+.nav2-btn2{
+    padding: 5px 10px 5px 10px;
+    border: none;
+background-color: white;
+/* border-right:1px solid rgb(163, 159, 159) ; */
+margin-right: 10px;
+color: #666666;
+line-height: 18px;
+size: 16px;
+font-weight: 700;
+
+}
+.nav2-btn:hover {
+    cursor: pointer;
+
 }
 
 /* hr{
@@ -438,7 +468,7 @@ footer {
     line-height: 5vh;
     font-weight: 100;
     /* background-color: orangered; */
-    width: 300px;
+    width: 250px;
 
 
 }
@@ -484,9 +514,30 @@ footer {
         /* background-color: rgb(255, 0, 0); */
     }
 
+
+
+
+    .nav2-search{
+        padding: 10px 0px 10px 30px;
+        width: 400px;
+        height: 6vh;
+        margin-left: 100px;
+    }
+
+
+
+
+
+
 }
 
     @media only screen and (max-width:950px) {
+        .nav2-search{
+            padding: 10px 0px 10px 30px;
+            width: 280px;
+            height: 5vh;
+            margin-left: 40px;
+        }
         .footer-container {
             gap: 40px;
         }
@@ -505,6 +556,15 @@ footer {
             margin-left: 30px;
             /* background-color: rgb(255, 0, 0); */
 
+        }
+        .nav2{
+            flex-wrap: wrap;
+        }
+        .nav2-search{
+            padding: 10px 0px 10px 20px;
+            width: 240px;
+            height: 4vh;
+            margin-left: -5px;
         }
 
         .nav3-container {
